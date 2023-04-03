@@ -1,18 +1,31 @@
+/* Start Box  */
+.d-flex {
+    display: flex;
+}
+/* End Box  */
+/* Start Padding + Margin  */
 .p-20 {
     padding: 20px;
 }
-.pt-20 {
-    padding-top: 20px;
-}
 .m-20 {
-    margin:20px;
+    margin: 20px
 }
-.bg-eee {
-    background-color: #EEE;
+.mt-0 {
+    margin-top: 0;
 }
+/* End Padding + Margin  */
+/* Start Color  */
 .bg-white {
     background-color: white;
 }
-.rad-6 {
-    border-radius: 6px;
+/* End Color  */
+/* Start Position  */
+.p-rel {
+    position: relative;
 }
+/* End Position  */
+/* Start Font  */
+.txt-c {
+    text-align: center;
+}
+/* End Font  */
