@@ -2,10 +2,22 @@
 .d-flex {
     display: flex;
 }
+.align-c {
+    align-items: center;
+}
 /* End Box  */
 /* Start Padding + Margin  */
+.p-10 {
+    padding: 10px;
+}
 .p-20 {
     padding: 20px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
 }
 .m-20 {
     margin: 20px
@@ -18,6 +30,9 @@
 .bg-white {
     background-color: white;
 }
+.c-black {
+    color: black;
+}
 /* End Color  */
 /* Start Position  */
 .p-rel {
@@ -28,4 +43,17 @@
 .txt-c {
     text-align: center;
 }
+.fs-14 {
+    font-size: 14px;
+}
 /* End Font  */
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+}
+/* End Border */
+/* Start Animation + Moving  */
+.tran {
+    transition: 0.3s;
+}
+/* End Animation + Moving  */
