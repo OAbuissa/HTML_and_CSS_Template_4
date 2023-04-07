@@ -88,9 +88,19 @@ ul {
     border: 1px solid #ccc;
 }
 .head .search input:focus {
-
+    width: 200px;
 }
 .head .search input:focus::placeholder {
-
+    opacity: 0;
+}
+.head .icons .notification::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--red-color);
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
 }
 /* End Content */
