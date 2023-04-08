@@ -1031,6 +1031,9 @@
 .fs-14 {
     font-size: 14px;
 }
+.fs-15 {
+    font-size: 15px;
+}
 /* End Font  */
 /* Start Border */
 .rad-6 {
@@ -1041,6 +1044,9 @@
 }
 .overflow-h {
     overflow: hidden;
+}
+.b-none {
+    border: none;
 }
 /* End Border */
 /* Start Animation + Moving  */
@@ -1056,5 +1062,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
 }
 /* End Components */
