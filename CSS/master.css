@@ -211,21 +211,57 @@ ul {
     width: 80px;
     height: 80px;
 }
-.targaets .detalis {
-
+.targets .detalis {
+    flex: 1;
 }
 .targets .detalis .progress {
-
+    height: 4px;
 }
-.targaets .detalis .progress > span {
-
+.targets .detalis .progress > span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
 }
-.targaets .detalis .progress > span span::after {
+.targets .detalis .progress > span span {
+    position: absolute;
+    bottom: 16px;
+    color: white;
+    right: -16px;
+    padding: 2px 5px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+.targets .detalis .progress > span span::after {
     content: "";
+    position: absolute;
+    border-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-color: var(--blue-color);
+}
+.targets .detalis .progress > .blue span::after {
+    border-top-color: var(--blue-color);
+}
+.targets .detalis .progress > .orange span::after {
+    border-top-color: var(--orange-color);
+}
+.targets .detalis .progress > .green span::after {
+    border-top-color: var(--green-color);
 }
 .blue .icon,
 .blue .progress {
     background-color: rgb(0 117 255 / 20%);
-
+}
+.orange .icon,
+.orange .progress {
+    background-color: rgb(0 117 255 / 20%);
+}
+.green .icon,
+.green .progress {
+    background-color: rgb(0 117 255 / 20%);
 }
 /* End Target Widget */
