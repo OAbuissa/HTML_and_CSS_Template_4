@@ -30,7 +30,7 @@
 .gap-20 {
     gap: 20px;
 }
-.align-c {
+.align-center {
     align-items: center;
 }
 @media (max-width: 767px) {
@@ -1058,6 +1058,11 @@
 }
 /* End Animation + Moving  */
 /* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .between-flex {
     display: flex;
     align-items: center;
