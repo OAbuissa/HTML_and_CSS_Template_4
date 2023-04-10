@@ -13,6 +13,9 @@
 .d-block {
     display: block;
 }
+.f-wrap {
+    flex-wrap: wrap;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -1024,6 +1027,9 @@
 .c-green {
     color: var(--green-color);
 }
+.c-red {
+    color: var(--red-color);
+}
 .bg-blue {
     background-color: var(--blue-color);
 }
@@ -1048,6 +1054,9 @@
 }
 .fs-15 {
     font-size: 15px;
+}
+.fw-bold {
+    font-weight: bold;
 }
 /* End Font  */
 /* Start Border */
